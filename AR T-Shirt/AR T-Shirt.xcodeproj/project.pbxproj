@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B447D2D22B96CD6008234AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B447D2C22B96CD6008234AB /* AppDelegate.swift */; };
+		4B447D2F22B96CD6008234AB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B447D2E22B96CD6008234AB /* art.scnassets */; };
+		4B447D3122B96CD6008234AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B447D3022B96CD6008234AB /* ViewController.swift */; };
+		4B447D3422B96CD6008234AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B447D3222B96CD6008234AB /* Main.storyboard */; };
+		4B447D3622B96CD8008234AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B447D3522B96CD8008234AB /* Assets.xcassets */; };
+		4B447D3922B96CD8008234AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B447D3722B96CD8008234AB /* LaunchScreen.storyboard */; };
+		4B447D4422B96CD8008234AB /* AR_T_ShirtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B447D4322B96CD8008234AB /* AR_T_ShirtTests.swift */; };
+		4B447D4F22B96CD8008234AB /* AR_T_ShirtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B447D4E22B96CD8008234AB /* AR_T_ShirtUITests.swift */; };
+		4B447D5D22B96CEA008234AB /* kawhigamewinner.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B447D5C22B96CEA008234AB /* kawhigamewinner.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B447D4022B96CD8008234AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B447D2122B96CD6008234AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B447D2822B96CD6008234AB;
+			remoteInfo = "AR T-Shirt";
+		};
+		4B447D4B22B96CD8008234AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B447D2122B96CD6008234AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B447D2822B96CD6008234AB;
+			remoteInfo = "AR T-Shirt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B447D2922B96CD6008234AB /* AR T-Shirt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR T-Shirt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B447D2C22B96CD6008234AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B447D2E22B96CD6008234AB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		4B447D3022B96CD6008234AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B447D3322B96CD6008234AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B447D3522B96CD8008234AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B447D3822B96CD8008234AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B447D3A22B96CD8008234AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B447D3F22B96CD8008234AB /* AR T-ShirtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR T-ShirtTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B447D4322B96CD8008234AB /* AR_T_ShirtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_T_ShirtTests.swift; sourceTree = "<group>"; };
+		4B447D4522B96CD8008234AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B447D4A22B96CD8008234AB /* AR T-ShirtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR T-ShirtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B447D4E22B96CD8008234AB /* AR_T_ShirtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_T_ShirtUITests.swift; sourceTree = "<group>"; };
+		4B447D5022B96CD8008234AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B447D5C22B96CEA008234AB /* kawhigamewinner.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kawhigamewinner.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B447D2622B96CD6008234AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B447D3C22B96CD8008234AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B447D4722B96CD8008234AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B447D2022B96CD6008234AB = {
+			isa = PBXGroup;
+			children = (
+				4B447D2B22B96CD6008234AB /* AR T-Shirt */,
+				4B447D4222B96CD8008234AB /* AR T-ShirtTests */,
+				4B447D4D22B96CD8008234AB /* AR T-ShirtUITests */,
+				4B447D2A22B96CD6008234AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B447D2A22B96CD6008234AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B447D2922B96CD6008234AB /* AR T-Shirt.app */,
+				4B447D3F22B96CD8008234AB /* AR T-ShirtTests.xctest */,
+				4B447D4A22B96CD8008234AB /* AR T-ShirtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B447D2B22B96CD6008234AB /* AR T-Shirt */ = {
+			isa = PBXGroup;
+			children = (
+				4B447D2C22B96CD6008234AB /* AppDelegate.swift */,
+				4B447D2E22B96CD6008234AB /* art.scnassets */,
+				4B447D3022B96CD6008234AB /* ViewController.swift */,
+				4B447D3222B96CD6008234AB /* Main.storyboard */,
+				4B447D3522B96CD8008234AB /* Assets.xcassets */,
+				4B447D3722B96CD8008234AB /* LaunchScreen.storyboard */,
+				4B447D5C22B96CEA008234AB /* kawhigamewinner.mp4 */,
+				4B447D3A22B96CD8008234AB /* Info.plist */,
+			);
+			path = "AR T-Shirt";
+			sourceTree = "<group>";
+		};
+		4B447D4222B96CD8008234AB /* AR T-ShirtTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B447D4322B96CD8008234AB /* AR_T_ShirtTests.swift */,
+				4B447D4522B96CD8008234AB /* Info.plist */,
+			);
+			path = "AR T-ShirtTests";
+			sourceTree = "<group>";
+		};
+		4B447D4D22B96CD8008234AB /* AR T-ShirtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B447D4E22B96CD8008234AB /* AR_T_ShirtUITests.swift */,
+				4B447D5022B96CD8008234AB /* Info.plist */,
+			);
+			path = "AR T-ShirtUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B447D2822B96CD6008234AB /* AR T-Shirt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B447D5322B96CD8008234AB /* Build configuration list for PBXNativeTarget "AR T-Shirt" */;
+			buildPhases = (
+				4B447D2522B96CD6008234AB /* Sources */,
+				4B447D2622B96CD6008234AB /* Frameworks */,
+				4B447D2722B96CD6008234AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR T-Shirt";
+			productName = "AR T-Shirt";
+			productReference = 4B447D2922B96CD6008234AB /* AR T-Shirt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B447D3E22B96CD8008234AB /* AR T-ShirtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B447D5622B96CD8008234AB /* Build configuration list for PBXNativeTarget "AR T-ShirtTests" */;
+			buildPhases = (
+				4B447D3B22B96CD8008234AB /* Sources */,
+				4B447D3C22B96CD8008234AB /* Frameworks */,
+				4B447D3D22B96CD8008234AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B447D4122B96CD8008234AB /* PBXTargetDependency */,
+			);
+			name = "AR T-ShirtTests";
+			productName = "AR T-ShirtTests";
+			productReference = 4B447D3F22B96CD8008234AB /* AR T-ShirtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B447D4922B96CD8008234AB /* AR T-ShirtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B447D5922B96CD8008234AB /* Build configuration list for PBXNativeTarget "AR T-ShirtUITests" */;
+			buildPhases = (
+				4B447D4622B96CD8008234AB /* Sources */,
+				4B447D4722B96CD8008234AB /* Frameworks */,
+				4B447D4822B96CD8008234AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B447D4C22B96CD8008234AB /* PBXTargetDependency */,
+			);
+			name = "AR T-ShirtUITests";
+			productName = "AR T-ShirtUITests";
+			productReference = 4B447D4A22B96CD8008234AB /* AR T-ShirtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B447D2122B96CD6008234AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Leban Issa";
+				TargetAttributes = {
+					4B447D2822B96CD6008234AB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4B447D3E22B96CD8008234AB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4B447D2822B96CD6008234AB;
+					};
+					4B447D4922B96CD8008234AB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4B447D2822B96CD6008234AB;
+					};
+				};
+			};
+			buildConfigurationList = 4B447D2422B96CD6008234AB /* Build configuration list for PBXProject "AR T-Shirt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B447D2022B96CD6008234AB;
+			productRefGroup = 4B447D2A22B96CD6008234AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B447D2822B96CD6008234AB /* AR T-Shirt */,
+				4B447D3E22B96CD8008234AB /* AR T-ShirtTests */,
+				4B447D4922B96CD8008234AB /* AR T-ShirtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B447D2722B96CD6008234AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B447D5D22B96CEA008234AB /* kawhigamewinner.mp4 in Resources */,
+				4B447D2F22B96CD6008234AB /* art.scnassets in Resources */,
+				4B447D3922B96CD8008234AB /* LaunchScreen.storyboard in Resources */,
+				4B447D3622B96CD8008234AB /* Assets.xcassets in Resources */,
+				4B447D3422B96CD6008234AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B447D3D22B96CD8008234AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B447D4822B96CD8008234AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B447D2522B96CD6008234AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B447D3122B96CD6008234AB /* ViewController.swift in Sources */,
+				4B447D2D22B96CD6008234AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B447D3B22B96CD8008234AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B447D4422B96CD8008234AB /* AR_T_ShirtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B447D4622B96CD8008234AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B447D4F22B96CD8008234AB /* AR_T_ShirtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B447D4122B96CD8008234AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B447D2822B96CD6008234AB /* AR T-Shirt */;
+			targetProxy = 4B447D4022B96CD8008234AB /* PBXContainerItemProxy */;
+		};
+		4B447D4C22B96CD8008234AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B447D2822B96CD6008234AB /* AR T-Shirt */;
+			targetProxy = 4B447D4B22B96CD8008234AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B447D3222B96CD6008234AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B447D3322B96CD6008234AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B447D3722B96CD8008234AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B447D3822B96CD8008234AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B447D5122B96CD8008234AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B447D5222B96CD8008234AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B447D5422B96CD8008234AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VJ3U2P55D;
+				INFOPLIST_FILE = "AR T-Shirt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leban.AR-T-Shirt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B447D5522B96CD8008234AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VJ3U2P55D;
+				INFOPLIST_FILE = "AR T-Shirt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leban.AR-T-Shirt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B447D5722B96CD8008234AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP95TJ7GAA;
+				INFOPLIST_FILE = "AR T-ShirtTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leban.AR-T-ShirtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR T-Shirt.app/AR T-Shirt";
+			};
+			name = Debug;
+		};
+		4B447D5822B96CD8008234AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP95TJ7GAA;
+				INFOPLIST_FILE = "AR T-ShirtTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leban.AR-T-ShirtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR T-Shirt.app/AR T-Shirt";
+			};
+			name = Release;
+		};
+		4B447D5A22B96CD8008234AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP95TJ7GAA;
+				INFOPLIST_FILE = "AR T-ShirtUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leban.AR-T-ShirtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR T-Shirt";
+			};
+			name = Debug;
+		};
+		4B447D5B22B96CD8008234AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP95TJ7GAA;
+				INFOPLIST_FILE = "AR T-ShirtUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leban.AR-T-ShirtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR T-Shirt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B447D2422B96CD6008234AB /* Build configuration list for PBXProject "AR T-Shirt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B447D5122B96CD8008234AB /* Debug */,
+				4B447D5222B96CD8008234AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B447D5322B96CD8008234AB /* Build configuration list for PBXNativeTarget "AR T-Shirt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B447D5422B96CD8008234AB /* Debug */,
+				4B447D5522B96CD8008234AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B447D5622B96CD8008234AB /* Build configuration list for PBXNativeTarget "AR T-ShirtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B447D5722B96CD8008234AB /* Debug */,
+				4B447D5822B96CD8008234AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B447D5922B96CD8008234AB /* Build configuration list for PBXNativeTarget "AR T-ShirtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B447D5A22B96CD8008234AB /* Debug */,
+				4B447D5B22B96CD8008234AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B447D2122B96CD6008234AB /* Project object */;
+}
